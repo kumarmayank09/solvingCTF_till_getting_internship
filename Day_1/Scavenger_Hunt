@@ -1,0 +1,34 @@
+🚩 Conquering the Scavenger Hunt CTF on picoCTF!
+CTF challenges (Capture The Flag) are an incredible way to enhance your cybersecurity skills while having fun. Recently, I tackled a challenge called "Scavenger Hunt" on picoCTF, where I explored various web files to uncover hidden flags. Here’s a breakdown of the experience and insights into the files involved – perfect for anyone looking to dive into ethical hacking!
+
+🌐 Key Files Explored
+HTML Files: HTML (HyperText Markup Language) is the backbone of any webpage. By viewing the source code (Ctrl+U in most browsers), I uncovered comments and metadata that led to potential clues. Always inspect the <head> and hidden <div> tags for breadcrumbs.
+ 🔍 Lesson: Never underestimate the power of "View Page Source" in web recon!
+
+CSS Files: CSS (Cascading Style Sheets) defines a webpage’s style. In this challenge, the CSS files had unusual class names and hidden text. Digging deeper into the styling rules sometimes revealed encoded or concealed messages.
+ 🔍 Lesson: Scrutinize unconventional class names or off-screen text styles.
+
+JavaScript Files: JavaScript often contains client-side logic. In one instance, a JS file held an obfuscated function, which, when decoded, led me to a flag. Tools like browser developer tools or online JavaScript beautifiers can help you make sense of such files.
+ 🔍 Lesson: Always check JavaScript for hidden logic or endpoints.
+
+robots.txt: Designed to guide search engine crawlers, this file is a goldmine for restricted directories. In the challenge, accessing paths disallowed by robots.txt revealed hidden files and directories containing flags.
+ 🔍 Lesson: If it’s in robots.txt, it’s worth investigating.
+
+.htaccess: This configuration file manages server behavior. While not accessible directly on most live servers, the challenge simulated misconfigurations that exposed directories and sensitive files.
+ 🔍 Lesson: Understand how server misconfigurations can expose vulnerabilities.
+
+.DS_Store: This macOS metadata file can reveal directory structures and even file paths. By downloading and analyzing .DS_Store files, I reconstructed hidden directory layouts to find flags.
+ 🔍 Lesson: Even innocuous-seeming files can provide critical intelligence.
+
+💡 Pro Tips for CTF Challenges
+Start Simple: Always explore the obvious first – View Source, directory structures, and visible files.
+Use the Right Tools: Familiarize yourself with tools like curl, wget, Burp Suite, and browser developer tools.
+Stay Curious: Hidden flags require persistence and creative thinking.
+
+🌟 Takeaways
+Participating in challenges like these reinforces the importance of secure coding practices and proper server configurations. Whether you’re a beginner or a seasoned pro, CTFs are a fun way to sharpen your skills.
+Ready to level up? Dive into a CTF today and uncover the world of cybersecurity one flag at a time!
+
+Have you ever participated in a CTF? Share your experiences or favorite challenges in the comments! Let’s learn together.
+#CyberSecurity #CTF #picoCTF #EthicalHacking #WebSecurity #CTFChallenges
+
