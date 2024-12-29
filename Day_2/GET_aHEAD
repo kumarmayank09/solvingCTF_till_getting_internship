@@ -1,0 +1,6 @@
+This is day 2.
+in this CTF, i have to make get method to head method.
+
+GET : It is a type of http method for which is retreive the data from web server by requesting a resource at specific URL.
+
+HEAD : It is similer to GET but, In HEAD, we retreive only response header without an actual resource content.
